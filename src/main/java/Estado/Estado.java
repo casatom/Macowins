@@ -2,5 +2,6 @@ package Estado;
 
 public interface Estado {
 
-    public Integer modificacionDePrecio(Integer precioBase);
+
+    Double precioFinal(Double precioBase);
 }

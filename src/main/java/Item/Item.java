@@ -1,13 +1,12 @@
 package Item;
 
-import Estado.Estado;
-
 public class Item {
 
-    private Estado estado;
-    private Integer precioBase;
-    private TipoItem tipoItem;
+    private Integer cantidad;
+    Prenda prenda;
 
-
+    public Double importe(){
+        return prenda.precio()*this.cantidad;
+    }
 
 }

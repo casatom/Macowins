@@ -3,7 +3,7 @@ package Estado;
 public class Nueva implements Estado {
 
     @Override
-    public Integer modificacionDePrecio(Integer precioBase) {
-        return null;
+    public Double precioFinal(Double precioBase) {
+        return precioBase;
     }
 }
