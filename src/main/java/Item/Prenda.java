@@ -13,4 +13,9 @@ public class Prenda {
         return  this.estado.precioFinal(this.precioBase);
     }
 
+    public Prenda(Estado estado, Double precioBase, TipoItem tipoItem) {
+        this.estado = estado;
+        this.precioBase = precioBase;
+        this.tipoItem = tipoItem;
+    }
 }

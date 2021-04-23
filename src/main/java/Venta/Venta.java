@@ -14,10 +14,6 @@ public class Venta {
             return this.fecha.isEqual(fecha);
     }
 
-    public LocalDate getFecha() {
-        return fecha;
-    }
-
     public Double importe(){
         return items.stream().mapToDouble(v -> v.importe()).sum();
     }
